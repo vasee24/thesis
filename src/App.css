@@ -1,0 +1,81 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  height: 100%;
+  width: 150px;
+  background-color: rgb(87, 90, 92);
+}
+
+#title {
+  color: white;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: medium;
+}
+
+.sidebarlist {
+  height: auto;
+  padding: 0;
+  width: 100%;
+}
+
+.sidebarlist .row {
+  width: 150px;
+  height: 50px;
+  list-style-type: none;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.sidebarlist .row:hover {
+  cursor: pointer;
+  background-color: rgb(51, 131, 212);
+}
+
+.row #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.row #thalaipu {
+  flex: 70%;
+  display: grid;
+  place-items: center;
+}
+
+.graph {
+  margin: 10px;
+}
+.grid-container {
+  margin: 15px;
+  display: grid;
+  grid-template-columns: auto 900px auto;
+  grid-auto-rows: auto auto;
+}
+.grid-item {
+  margin: 10px;
+  color: rgb(199, 109, 138);
+}
+
+.grid-container2 {
+  background-color: rgba(224, 220, 221);
+
+  margin: 15px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: auto auto;
+}
